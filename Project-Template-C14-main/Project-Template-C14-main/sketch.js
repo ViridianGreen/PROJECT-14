@@ -120,6 +120,7 @@ function draw() {
   }
 
   drawSprites();
+  textSize(20);
   text("Score: "+ score, 300,50);
 
   if(gamestate == "start"){
